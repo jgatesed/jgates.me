@@ -15,3 +15,11 @@ app.get('/', function(req, res){
 app.get('/about', function(req, res){
   res.sendfile(path.join(__dirname + "/public" + '/index-1.html'));
 });
+
+app.get('/projects', function(req, res){
+  res.sendfile(path.join(__dirname + "/public" + '/index-2.html'));
+});
+
+app.get('/contact', function(req, res){
+  res.sendfile(path.join(__dirname + "/public" + '/index-4.html'));
+});
